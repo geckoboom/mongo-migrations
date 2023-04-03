@@ -1,0 +1,25 @@
+{
+    "name": "geckoboom/mongo-migrations",
+    "description": "Mongo migrations adapter",
+    "keywords": ["whirl"],
+    "type": "library",
+    "require": {
+        "php": "~7.4",
+        "geckoboom/migrations": "dev-master",
+        "whirlwind-framework/persistence-mongodb": "dev-main",
+        "league/container": "4.x-dev"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Geckoboom\\MongoMigrations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Tsyganov",
+            "email": "ontroip@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
